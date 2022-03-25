@@ -22,12 +22,14 @@
 - Not all the planets data is is stored in the database but just a few info, because probably copying all info is not the main focus of the exercise
 - .env not present since it goes in .gitignore, but i'm pasting here the interesting lines:
 
+```
 DB_CONNECTION=mysql
 DB_HOST='mysql'
 DB_PORT=3306
 DB_DATABASE='exercise'
 DB_USERNAME='root'
 DB_PASSWORD='rootpassword'
+```
 
 ## APIs
 
